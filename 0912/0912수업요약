@@ -1,0 +1,7 @@
+MSYS2와 VS code를 이용해 c++이용하기
+MSYS2 공식 웹사이트에 접속하여 설치한 후 MSYS2 터미널을 실행
+터미널 창에 pacman -Syu, pacman -Su와 pacman -S --needed mingw-w64-ucrt-x86_64-toolchain을 입력하여 업데이트 및 개발도구모음 설치
+명령 프롬프트(CMD)나 PowerShell 창을 열어 gcc --version ,gdb --version을 입력해 입력, 버전 정보가 잘 나오면 됨
+
+
+
