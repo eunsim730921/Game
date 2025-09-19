@@ -1,1 +1,20 @@
+2바이트
 
+이차원 배열  null을 포함해 n+1
+
+랜덤 없으면
+for(i=0; i<10; i++)
+{
+    do
+    {
+        rnd = rand() % 10;
+    } while(rnd == i);
+    temp = a[rnd];
+    a[rnd] = a[i];
+    a[i] = temp;
+}
+활용
+
+아스키 코드에드 음성이 구현되어 있음
+
+Visualgo 사이트 참고 및 활용하기
